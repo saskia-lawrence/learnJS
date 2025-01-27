@@ -26,5 +26,5 @@ console.log(J);
 let K = "saskia".startsWith("kia");
 console.log(K);
 
-let L = "saskia".startsWith("kia");
+let L = "saskia".endsWith("kia");
 console.log(L);
