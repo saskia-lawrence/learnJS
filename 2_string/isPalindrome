@@ -1,4 +1,4 @@
-let a = 'maam'
+let a = 'rotator'
 let b = ''
 let c = ''
 if(a.length % 2 === 0)
@@ -11,7 +11,7 @@ else if(a.length % 2 ==! 0){
  b = b + a.substring(a.length/2)
  c = c + a.substring(0,a.length/2 + 1) 
 }
- console.log(c,b)
+ //console.log(c,b)
 let e=''
 for(let i = b.length - 1;i>= 0;--i)
     {
