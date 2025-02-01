@@ -9,4 +9,4 @@ for (let i in B) {
   let E = B[i];
   C[i] = E;
 }
-console.log(C);
++console.log(C);

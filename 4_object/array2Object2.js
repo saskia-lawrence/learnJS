@@ -1,3 +1,7 @@
+//
+
+
+
 let A = ["a", "b", "c", "d", "e", "f"];
 let B = {};
 for (let i = 0; i < A.length; i = i + 2) {
