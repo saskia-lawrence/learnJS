@@ -1,0 +1,11 @@
+//kiasas
+let a = "saskia";
+let b = 3;
+let rotateRight = function (x, y) {
+  let c = x.substring(y);
+  let d = x.substring(0, y);
+  let e = c + d;
+  return e;
+};
+let n = rotateRight(a, b);
+console.log(n);
