@@ -1,0 +1,56 @@
+// Boo.js
+import React from 'react';
+export default  Boo = {
+  "0": {
+    "tittle": "rdf",
+    "img": "https://www.kasandbox.org/programming-images/avatars/leaf-blue.png",
+    "buttonText": "test",
+      "ff":['cgj','ffj','true']
+  },
+  "1": {
+    "tittle": "dsm",
+    "img": "https://www.kasandbox.org/programming-images/avatars/leaf-green.png",
+    "buttonText": "ssj",
+      "ff":['khkr','jfhe','ude']
+  }
+};
+//app.js
+import React from 'react';
+import Boo from './Boo';
+import Obj from './Obj';
+let list = []
+for(let i in Boo){
+    let a = Boo[i]  
+    let b = (<Obj tt={a.tittle} ii={a.img} gg={a.buttonText} ss={a.ff}/>);
+    list.push(b)
+}
+export default function App() {
+      return (
+ <div>
+     {list}
+    </div>)
+ }
+//Obj.js
+import React from 'react';
+function Obj(props) {
+    let p = []
+    let n = props.ss
+    for(let j=0;j<n.length;j++){
+        let o = n[j]
+        let q = (<p key={j} >{o}</p>);
+        p.push(q)
+    }
+        function Butt(e) {
+        let h = e.target.innerHTML
+        alert(h)
+    }
+    return (<div>
+    <h1>{props.tt}</h1>
+        <div>
+            <img src={props.ii} />
+        </div>
+        <button onClick={Butt}>{props.gg}</button>
+        {p}
+    </div>);
+}
+export default Obj;
