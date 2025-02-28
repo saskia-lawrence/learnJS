@@ -30,7 +30,7 @@ let object = {
       ]
     }
   }
-  export default object
+  export default object;
   //App.jsx
   import React, { useRef, useState } from "react";
 import "./style.css";
