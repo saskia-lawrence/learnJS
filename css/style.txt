@@ -1,0 +1,17 @@
+//element wise style 
+
+
+<style>
+    p{
+      color:green;
+            
+    }
+    </style>
+
+    //-----------------------------
+
+
+//inline style
+
+
+<p style='color:pink;'>hello Samuel</p>
