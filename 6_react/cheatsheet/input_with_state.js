@@ -15,13 +15,13 @@ const App = () => {
   let getHandler = function () {
     alert(str);
   };
-  let whenUserChangeValue = function (event) {
-    let a = event.target.value;
-    setStr(a);
-  };
+
   return (
     <>
-      <input value={str} onChange={whenUserChangeValue}></input>
+      <input
+        value={str}
+        onChange={(event) => setStr(event.target.value)}
+      ></input>
       <br></br>
       <button onClick={setHandler}>
         Set Value to above input element using state
