@@ -4,7 +4,7 @@ let a = ["apple", "orange", "banana", "grapes", "jackfruit", "orange"];
 //splice()
 let index_to_remove = 2;
 a.splice(index_to_remove, 1);
-console.log(a);
+console.log(a); //["apple", "orange", "grapes", "jackfruit", "orange"];
 
 
 //push()
