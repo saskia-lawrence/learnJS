@@ -5,7 +5,9 @@ const App = () => {
 
   return 
     <>
-        {str && <p>'IamHere'</p>}
+        {str && <p>'Not shown'</p>}
+        {!str && <p>'shown'</p>}
+
     </>;
 };
 
