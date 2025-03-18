@@ -1,0 +1,2 @@
+#799ECA - a colour in HEX format
+rgb(148,252,147) - a colour in rgb format
