@@ -5,4 +5,4 @@ for (let i = 0; i < B.length; i++) {
   let D = C * 3;
   A.push(D);
 }
-console.log(A);
+console.log(A);//[18,21,24,27]
